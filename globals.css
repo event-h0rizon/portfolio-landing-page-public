@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.embla {
+    overflow: hidden;
+  }
+  .embla__container {
+    display: flex;
+    
+  
+  }
+  .embla__slide {
+    flex: 0 0 100%;
+    min-width: 0;
+  }
+
+  html::-webkit-scrollbar {
+    width: 0.75vw;
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 8px;
+  }
+
+  html::-webkit-scrollbar-thumb {
+    background-color: rgba(0,0,0,0.8);
+    border-radius: 8px;
+  }
+
+  html::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0,0,0,1);
+    border-radius: 8px;
+  }
